@@ -19,3 +19,6 @@ class Engineer(Employee):
 
 engg1 = Engineer("Elon Musk",40)
 engg1.showDetails()
+
+engg2 = Engineer("akshay kumar",57)
+engg2.showDetails()
