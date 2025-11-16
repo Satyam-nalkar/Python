@@ -36,7 +36,11 @@ def min_window_subsequence(s1, s2):
         # Move i to the next chara to find next possible window
         i = i + 1
 
-    return "" if start == -1 else s1[start:start + min_len]
+    # return "" if start == -1 else s1[start:start + min_len]
+    if start == -1:
+        return ""
+    else:
+        return s1[start : start + min_len]
 
 
 
